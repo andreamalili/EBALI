@@ -1,0 +1,126 @@
+body {
+	font-family: 'skia', sans-serif;
+}
+
+header {
+    position: relative;
+    top: 0%;
+    margin-top: -45px;
+    padding-top: 70px;
+    padding-left: 50px ;
+    padding-bottom: 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    border-bottom: 1px solid black;
+    background-color: #FDD4AC;
+}
+
+.logo{
+    justify-content: start;
+    padding-right: 100px;
+    background-color: #FDD4AC;
+}
+
+.logo img, svg {
+    padding-bottom: 5px;
+    background-color: #FDD4AC;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    padding-top: 150px;
+    background-color: #FDD4AC;
+    margin-left: -100px;
+}
+
+.navbar .container-fluid {
+    background-color: #FDD4AC;
+    justify-content: start;
+}
+
+.navbar li {
+    list-style: none;
+    background-color: #FDD4AC;
+}
+
+.navbar li a:hover{
+    border-bottom: 2px solid #E96B24;
+    color: #E96B24;
+    padding-left: 20px;
+
+    transform: translateY(-2px) translateX(-4px);
+    font-weight: bold;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 0.5px solid black;
+    margin-left: 30px;
+    font-weight: 520;
+    font-size: 19px;
+}
+
+.collapse {
+    background-color: #FDD4AC;
+}
+
+.navbar button {
+    border: 1px solid black;
+}
+
+.navbar-toggler-icon {
+    background-color: #FDD4AC;
+}
+
+.dropdown-menu {
+    padding: 10px;
+    background-color: #FDD4AC;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.dropdown-menu a:hover {
+    background-color: #FABF86;
+}
+
+.dropdown-item {
+    padding-left: 0;
+}
+
+.btn-inscription {
+    padding: 9px 30px;
+    background: #E96B24;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+}
+
+.btn-inscription:hover {
+    background: #FABF86;
+    border: 1px solid black;
+}
+
+.btn-connexion {
+    padding: 9px 30px;
+    background: #E96B24;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+}
+
+.btn-connexion:hover {
+    background: #FABF86;
+    border: 1px solid black;
+}
+
+.d-flex {
+    background-color: #FDD4AC;
+}
+
+header .navbar li a:hover {
+    color: #E96B24;
+    border-bottom: 2px solid #FF7C00;
+}

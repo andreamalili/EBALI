@@ -1,0 +1,56 @@
+body {
+    background-color: #FABF86;
+}
+
+main {
+    padding-right: 10rem;
+    padding-left: 10rem;
+    padding-top: 1.5rem;
+    padding-bottom: 10rem;
+    background-color: #FABF86;
+}
+
+section {
+    margin-top: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 5rem;
+    background-color:#FDD4AC;
+}
+
+.dropdown-menu  {
+    background-color: #FF7C00;
+    border-color: #FF7C00;
+    border-width: 0.1rem;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    color: #FDD4AC;
+}
+
+nav {
+    margin-top: 1.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem
+}
+
+mark {
+    background-color: #FDD4AC;
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+    padding-top: 1.5rem;
+}
+
+h1 {
+    text-align: left;
+    padding-top: 1.5rem;
+}
+
+h3 {
+    font-size: 18px;
+    text-align: left;
+    padding-top: 1.5rem;
+}
+

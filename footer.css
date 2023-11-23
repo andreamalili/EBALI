@@ -1,0 +1,100 @@
+p  {
+    color: #000000;
+    font-size: 20px
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+    background-color: #FDD4AC;
+    border-top: 1px solid black;
+    padding-top: 30px;
+    font-family: 'skia', sans-serif;
+}
+.footer-content h3 {
+    color: #E96B24;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: start;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: #FDD4AC;
+}
+
+.footer-content li {
+    margin-bottom: 10px;
+    list-style: none;
+    background-color: #FDD4AC;
+}
+
+.footer-content li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #FDD4AC;
+}
+.footer-content li a:hover {
+    transform: translateY(-2px) translateX(-4px);
+    font-weight: bold;
+}
+
+.footer-content h4 {
+    justify-content: flex-start;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    padding-top: 25px;
+    background-color: #FDD4AC;
+}
+
+.footer-content img {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    object-fit: contain;
+    padding-left: 20px;
+    margin-left: -100px;
+    margin-top: 20px;
+    background-color: #FDD4AC;
+}
+
+.icons {
+    background-color: #FDD4AC;
+}
+
+.icons i {
+    background-color: #FDD4AC;
+}
+
+.icons a {
+    display: inline-block;
+    font-size: 24px;
+    color: #E96B24;
+    margin-right: 17px;
+    background-color: #FDD4AC;
+}
+
+.icons a:hover {
+    transform: translateY(-2px) translateX(-4px);
+}
+
+.footer-content p {
+    display: block;
+    color: black;
+    font-size: 15px;
+    font-weight: 510;
+    background-color: #FDD4AC;
+}
+
+.footer-content {
+    background-color: #FDD4AC;
+}
+
+section {
+    padding: 100px;
+}
+
