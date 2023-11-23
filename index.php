@@ -1,6 +1,6 @@
-<?php require "header.html"; ?>
-<?php require "remplir_panier.html"; ?>
-<?php require "footer.html"; ?>
+<?php require "HTML/header.html"; ?>
+<?php require "HTML/remplir_panier.html"; ?>
+<?php require "HTML/footer.html"; ?>
 
 <?php get_header(); ?>
 <?php get_footer(); ?>
