@@ -1,0 +1,247 @@
+* {
+    background-color: #FABF86;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.banniere {
+    position:relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/http://localhost:8888/test-wordpress/wp-content/uploads/2023/11/remplissage-sacs-scaled.jpg);
+    background-size: cover;
+}
+
+section {
+    padding: 100px;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col50 {
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .col50 h2 {
+    margin-bottom: 20px;
+}
+
+.sous-titre {
+    color: #E96B24;
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    font-family: 'skia', sans-serif;
+}
+
+p  {
+    color: #000000;
+    font-size: 18px;
+}
+
+.titre li {
+    color: #000000;
+    font-size: 18px;
+}
+
+
+.titre {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.panier {
+    margin-top: -100px;
+}
+
+.panier .contenu {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.panier .contenu .box {
+    width: 290px;
+    margin-top: 20px;
+    margin-right: 25px;
+    border: 1px solid #000000;
+    background-color: white;
+}
+
+.panier .contenu .box .imbox {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+.panier .contenu .box .imbox img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    background-color: white;
+}
+
+.panier .titre .btn-inscription {
+    color: #000000;
+    text-decoration: none;
+    margin-top: 100px;
+    font-size: 22px;
+    border-radius: 0.5rem;
+}
+
+.panier .contenu .box .form-check {
+    font-size: 22px;
+    margin-left: 33px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.panier .contenu .box .form-check .form-check-input {
+    background-color: #FDD4AC;
+    border: 1px solid black;
+}
+
+.panier .contenu .box .form-check .form-check-input a:active {
+    background-color: #E96B24;
+    color: #E96B24;
+}
+
+.panier .contenu .box .form-check .form-check-label {
+    background-color: white
+}
+
+.btn-valider {
+    padding: 8px 20px;
+    background-color: #E96B24;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+.titre a:hover {
+    background-color: #FDD4AC;
+    border: 1px solid black;
+}
+
+.membres .titre {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.membres {
+    margin-top: -100px;
+}
+
+.membres .contenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.membres .contenu .box {
+    width: 250px;
+    margin: 15px;
+    justify-content: center;
+}
+
+.membres .contenu .box img {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 0px;
+    left: 0px;
+    object-fit: cover ;
+}
+
+.membres .contenu .box h3 {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: start;
+    margin-top: 20px;
+}
+
+.btn-soumettre {
+    padding: 8px 20px;
+    background-color: #E96B24;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+.list-group {
+    border: 0.5px solid black;
+    width: 1200px;
+}
+
+.list-group-item {
+    background-color: #FDD4AC;
+    border: 0.5px solid black;
+}
+
+.list-group-item a {
+    background-color: #FDD4AC;
+    color: #E96B24;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.list-group-item a:hover {
+    color: #E96B24;
+}
+
+.dropdown {
+    background-color: #FDD4AC;
+    border-radius: 0.5rem;
+    color: #000000;
+}
+
+.dropdown .btn {
+    background-color: #FDD4AC;
+    border: none;
+    color: #000000;
+}
+
+.list-group-item a:hover {
+    border: 0px;
+}
+
+.dropdown-menu {
+    background-color: #FDD4AC;
+    border: 3px solid #E96B24;
+}
+
+.btn {
+    font-size: 20px;
+}

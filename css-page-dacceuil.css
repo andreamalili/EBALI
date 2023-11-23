@@ -1,0 +1,83 @@
+body {
+    background-color: #FABF86;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 3rem;
+    color: #FF7C00;
+}
+
+main {
+    margin-top: 45rem;
+    padding: 10rem;
+    background-color: #FABF86;
+}
+
+les deux card les mettre  au milieu, images en plus large, voir si on met les sous-rubriques en dessous ou juste les rubriques {
+justify-content: center;
+background-color: #FF7C00;
+}
+
+section {
+    margin-top: 3rem;
+    padding: 7rem;
+    background-color:#FDD4AC;
+}
+
+section {
+
+}
+
+.dropdown-menu  {
+    background-color: #FF7C00;
+    border-color: #FF7C00;
+    border-width: 0.1rem;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    color: #FDD4AC;
+}
+
+btn les boutons ?{
+    background-color: #FDD4AC;
+    border-color: #FF7C00;
+    padding: 1rem;
+    color: #FABF86;
+}
+
+colgroup mettre au milieu? {
+    justify-content: center;
+ }
+
+row {
+    justify-content: center;
+ }
+
+button {
+    color: #FF7C00;
+}
+
+nav.navbar {
+    margin-bottom: 3rem;
+    margin-left: 10rem;
+    margin-right: 10rem
+}
+
+section.top-page {
+    background-color: #FABF86;
+    padding-top: 1rem;
+    background-size: cover;  
+}
+
+section.landing-page {
+    background-color: #FABF86;
+    padding-top: 1rem;
+    background-size: cover; 
+    si on veut mettre une image fixe 
+}
+
+nav.bg-body-tertiary {
+
+}
+
+.container-fluid

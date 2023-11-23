@@ -1,0 +1,36 @@
+* {
+    background-color: #FABF86;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 100px;
+}
+
+p  {
+    color: #000000;
+    font-size: 20px
+}
+
+.titre {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titre a:hover {
+    background-color: #FDD4AC;
+    border: 1px solid black;
+}
+
+.sous-titre {
+    color: #E96B24;
+    font-weight: bold;
+    font-size: 35px;
+}
