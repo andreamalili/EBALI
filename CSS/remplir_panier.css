@@ -27,6 +27,8 @@ section {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-top: -160px;
+    background-color: #FDD4AC;
 }
 
 .row .col50 {
@@ -244,4 +246,13 @@ p  {
 
 .btn {
     font-size: 20px;
+}
+
+.row h4 {
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.formulaire {
+    background-color: #FDD4AC;
 }

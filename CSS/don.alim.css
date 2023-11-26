@@ -1,0 +1,74 @@
+* {
+    background-color: #FABF86;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 100px;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -160px;
+}
+
+.sous-titre {
+    color: #E96B24;
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    font-family: 'skia', sans-serif;
+}
+
+p  {
+    color: #000000;
+    font-size: 18px;
+}
+
+.btn-soumettre {
+    padding: 8px 20px;
+    background-color: #E96B24;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    margin-top: -200px;
+}
+
+.row h4 {
+    font-size: 22px;
+    padding-top: 40px;
+}
+
+.form-check {
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.form-check .form-check-input {
+    background-color: #FDD4AC;
+    border: 1px solid black;
+}
+
+.form-check .form-check-label .flexCheckChecked a:active{
+    background-color: #E96B24;
+    color: #E96B24;
+}
+
+.titre a:hover {
+    background-color: #FDD4AC;
+    border: 1px solid black;
+}
+
+.titre .btn-soumettre {
+    position: center;
+}
